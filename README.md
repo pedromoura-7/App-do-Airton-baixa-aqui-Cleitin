@@ -1,3 +1,42 @@
+## Passos para rodar o app com Expo
+
+1. **Instale o Node.js**
+   - Baixe e instale a versão LTS do Node.js em [https://nodejs.org/](https://nodejs.org/)
+   - O Node.js já inclui o npm (gerenciador de pacotes).
+
+2. **Instale o Expo CLI (opcional, recomendado usar npx)**
+   - Para instalar globalmente:
+     ```powershell
+     npm install -g expo-cli
+     ```
+   - Ou utilize o Expo local do projeto via npx (recomendado).
+
+3. **Instale as dependências do projeto**
+   - No terminal, navegue até a pasta do projeto:
+     ```powershell
+     cd App-do-Airton-baixa-aqui-Cleitin
+     npm install
+     ```
+
+4. **Instale o Expo localmente (caso não esteja instalado)**
+   - Execute:
+     ```powershell
+     npm install expo
+     ```
+
+5. **Inicie o servidor de desenvolvimento**
+   - Use o comando:
+     ```powershell
+     npx expo start
+     ```
+   - Um QR code será exibido no terminal ou navegador.
+
+6. **Teste o app no seu dispositivo**
+   - Instale o app Expo Go no seu celular (disponível na Play Store/App Store).
+   - Escaneie o QR code para abrir o app.
+
+> Se tiver problemas com permissões, PATH ou dependências, verifique se o Node.js está corretamente instalado e reinicie o terminal.
+
 TuKans Detail — Protótipo de Agendamento de Estética Automotiva
 
 1. Ideia e Objetivo
